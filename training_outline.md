@@ -11,6 +11,12 @@ Dev environment should be one of:
 * Running LND on Kubernetes cluster and programming using JupyterLab, requires:
     * Github account for login
 
+### Docker
+* sudo docker build -t bb .
+* sudo docker run -it --name bb_workshop bb
+* sudo docker exec -it bb_workshop python3
+* Skip to step 4 Python import
+
 #### Own machine
 * Setup and activate a Python >=3.6 virtual environment
 * Download lnd v0.6.1-beta binary for your OS: [lnd/releases/v0.6.1-beta](https://github.com/lightningnetwork/lnd/releases/tag/v0.6.1-beta)
